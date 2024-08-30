@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: remembrance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-16 19:17-0400\n"
-"PO-Revision-Date: 2023-04-17 22:33+0000\n"
+"POT-Creation-Date: 2023-05-02 16:55-0400\n"
+"PO-Revision-Date: 2024-08-30 18:23-0400\n"
 "Last-Translator: Jose Manuel Sánchez <josemas@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/reminders/"
 "reminders/es/>\n"
@@ -17,42 +17,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: data/browser/io.github.dgsasha.Remembrance.desktop.in.in:4
 #: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:9
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:64 src/info.py:8
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:66 src/info.py:8
 msgid "Reminders"
 msgstr "Recordatorios"
 
 #: data/browser/io.github.dgsasha.Remembrance.desktop.in.in:5
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:10
 msgid "Set reminders for yourself"
-msgstr "Establece tus recordatorios"
+msgstr "Establece recordatorios para ti mismo"
 
 #: data/browser/io.github.dgsasha.Remembrance.desktop.in.in:13
 msgid ""
 "Todo;Productivity;Task;Planning;Planner;Time;Management;Reminder;Remembrance;"
 "Reminders;"
 msgstr ""
-"Todo;Productividad;Tarea;Planificación;Planificador;Tiempo;Gestión;Recordator"
-"io;Recuerdo;Recordatorios;"
+"Todo;Productividad;Tarea;Planificación;Planificador;Tiempo;Gestión;"
+"Recordatorio;Recuerdo;Recordatorios;"
 
-#: data/service/io.github.dgsasha.Remembrance.Service1.desktop.in.in:4
+#: data/service/io.github.dgsasha.Remembrance.Service3.desktop.in.in:4
 msgid "Remembrance Service"
 msgstr "Servicio de Recordatorios"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:23
-#: src/browser/resources/ui/preferences.ui:69
+#: src/browser/resources/ui/preferences.ui:113
 msgid "Time format"
-msgstr "Formato de hora"
+msgstr "Formato de tiempo"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:24
 msgid "What format to display the time in"
 msgstr "En qué formato mostrar la hora"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:28
-#: src/browser/resources/ui/main_window.ui:46
+#: src/browser/resources/ui/main_window.ui:62
 msgid "Sort by"
 msgstr "Ordenar por"
 
@@ -61,13 +60,13 @@ msgid "How to sort the reminders"
 msgstr "Cómo ordenar los recordatorios"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:33
-#: src/browser/resources/ui/preferences.ui:50
+#: src/browser/resources/ui/preferences.ui:94
 msgid "Auto refresh frequency"
 msgstr "Frecuencia de actualización automática"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:34
 msgid "How often the reminders are refreshed (minutes)"
-msgstr "Con qué frecuencia se actualizan los recordatorios (minutos)"
+msgstr "Frecuencia de actualización de los recordatorios (minutos)"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:38
 msgid "Notification Sound"
@@ -83,7 +82,7 @@ msgstr "Usar el sonido de notificación incluido"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:44
 msgid "Whether to use the included notification sound"
-msgstr "Elegir usar el sonido de notificación incluido"
+msgstr "Si se debe utilizar el sonido de notificación incluido"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:48
 msgid "Descending sort"
@@ -94,47 +93,59 @@ msgid "If reminders sort should be descending"
 msgstr "Si el orden de los recordatorios debe ser descendente"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:53
-msgid "Completed last"
-msgstr "Completado el último"
+msgid "Week starts on sunday"
+msgstr "La semana comienza el domingo"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:54
-msgid "Show completed reminders last"
-msgstr ""
+msgid "If week should start on sunday"
+msgstr "Si la semana debe comenzar el domingo"
 
-#: data/io.github.dgsasha.Remembrance.gschema.xml.in:58
-msgid "Completed reverse"
-msgstr "Completado inverso"
+#: data/io.github.dgsasha.Remembrance.gschema.xml.in:67
+msgid "Remote lists that should be synced"
+msgstr "Listas remotas que deben sincronizarse"
 
-#: data/io.github.dgsasha.Remembrance.gschema.xml.in:59
-#: data/io.github.dgsasha.Remembrance.gschema.xml.in:73
-msgid "Reverse order of completed reminders when sorted by time"
+#: data/io.github.dgsasha.Remembrance.gschema.xml.in:68
+msgid ""
+"Add a user id if you want to sync all of the lists on a user, or any list id "
+"on the user"
 msgstr ""
-"Orden inverso de los recordatorios completados cuando se ordenan por fecha"
+"Añada un identificador de usuario si desea sincronizar todas las listas de "
+"un usuario, o cualquier identificador de lista del usuario"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:72
-msgid "Sync with Microsoft To Do"
-msgstr "Sincronizar con Microsoft To Do"
+msgid "Selected list"
+msgstr "Lista seleccionada"
+
+#: data/io.github.dgsasha.Remembrance.gschema.xml.in:73
+msgid "list ids can be 'all', 'local', or an actual id"
+msgstr ""
+"los identificadores de la lista pueden ser 'todos', 'locales' o un "
+"identificador actual"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:77
-msgid "Task lists that should be synced"
-msgstr "Listas de tareas que deben sincronizarse"
+msgid "[DEPRECATED] Task lists that should be synced"
+msgstr "[OBSOLETO] Listas de tareas que deben sincronizarse"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:78
 msgid ""
 "{user_id: [task_list_ids]}, task_list_ids can be 'all' or an array of ids"
 msgstr ""
-"{user_id: [task_list_ids]}, task_list_ids puede ser 'todos' o una matriz de "
-"ids"
+"{id_usuario: [task_list_ids]}, task_list_ids puede ser 'todos' o una matriz "
+"de ids"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:82
-msgid "Task lists that should be visible"
-msgstr "Listas de tareas que deberían ser visibles"
+msgid "[DEPRECATED] Task lists that should be visible"
+msgstr "[OBSOLETO] Listas de tareas que deberían estar visibles"
 
 #: data/io.github.dgsasha.Remembrance.gschema.xml.in:83
 msgid "(user_id, task_id) ids can be 'all', 'local', or an actual id"
 msgstr ""
 "(user_id, task_id) los identificadores pueden ser 'todos', 'locales' o un "
 "identificador actual"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:10
+msgid "Set reminders and manage tasks"
+msgstr "Establezca recordatorios y gestione tareas"
 
 #: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:13
 msgid "What you can do with Reminders:"
@@ -168,918 +179,1160 @@ msgstr "Opcionalmente, reproduce un sonido cuando se envían notificaciones"
 msgid "Optionally sync with Microsoft To Do"
 msgstr "Sincronización opcional con Microsoft To Do"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:55
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:22
+msgid "Optionally sync with CalDAV servers"
+msgstr "Sincronización opcional con servidores CalDAV"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:23
+msgid "Import and export ical/ics files"
+msgstr "Importar y exportar archivos ical/ics"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:57
 msgid "Todo"
 msgstr "Todo"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:56
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:58
 msgid "Productivity"
 msgstr "Productividad"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:57
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:59
 msgid "Task"
 msgstr "Tarea"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:58
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:60
 msgid "Planning"
 msgstr "Planificación"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:59
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:61
 msgid "Planner"
 msgstr "Planificador"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:60
-#: src/browser/resources/ui/reminder_edit_window.ui:71
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:62
+#: src/browser/resources/ui/reminder_edit_window.ui:87
 msgid "Time"
-msgstr "Hora"
+msgstr "Tiempo"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:61
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:63
 msgid "Management"
 msgstr "Gestión"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:62
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:64
 msgid "Reminder"
 msgstr "Recordatorio"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:63
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:65
 msgid "Remembrance"
-msgstr "Remembranza"
+msgstr "Recuerdo"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:85
-msgid "Fix issue when moving reminders between lists"
-msgstr "Solucione el problema al mover recordatorios entre listas"
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:87
+msgid "UI improvements"
+msgstr "Mejoras en la interfaz de usuario"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:86
-msgid "Fix issue with error dialogs"
-msgstr "Solucione el problema con los cuadros de diálogo de error"
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:88
+msgid "Added support for making the week start on sunday"
+msgstr "Se añadió soporte para hacer que la semana comience el domingo"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:89
+msgid ""
+"Added indicators that show how many incomplete reminders are in each list/"
+"group"
+msgstr ""
+"Se han añadido indicadores que muestran cuántos recordatorios incompletos "
+"hay en cada lista/grupo"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:90
+msgid "Added support for syncing with CalDAV servers"
+msgstr ""
+"Se ha añadido compatibilidad con la sincronización con servidores CalDAV"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:91
+msgid ""
+"Added support for selecting multiple reminders in one click by holding shift"
+msgstr ""
+"Se agregó soporte para seleccionar múltiples recordatorios con un solo clic "
+"manteniendo presionada la tecla Shift"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:92
+msgid "Added support for dragging and dropping reminders between lists"
+msgstr "Se agregó soporte para arrastrar y soltar recordatorios entre listas"
 
 #: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:93
-msgid "Fix issue when deleting lists"
-msgstr "Solucionar el problema al eliminar listas"
+msgid "Added support for importing and exporting ical/ics files"
+msgstr "Se ha añadido soporte para importar y exportar archivos ical/ics"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:94
+msgid "Added more multithreading to significantly speed up certain operations"
+msgstr ""
+"Se han añadido más subprocesos múltiples para acelerar considerablemente "
+"determinadas operaciones"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:95
+msgid "Added support for syncing recurring reminders with Microsoft To Do"
+msgstr ""
+"Se ha añadido compatibilidad para sincronizar recordatorios recurrentes con "
+"Microsoft To Do"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:96
+msgid "Added support for creating monthly and yearly repeating reminders"
+msgstr ""
+"Se ha añadido la posibilidad de crear recordatorios mensuales y anuales "
+"repetidos"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:97
+msgid ""
+"Version numbers are now handled in a logical way (as in they aren't just "
+"doubles)"
+msgstr ""
+"Los números de versión se gestionan ahora de forma lógica (es decir, no son "
+"simplemente dobles)"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:98
+msgid ""
+"Microsoft sign in window now appears in the app instead of in the browser"
+msgstr ""
+"La ventana de inicio de sesión de Microsoft ahora aparece en la aplicación "
+"en lugar de en el navegador"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:99
+msgid "Significantly improve how recurring reminders function"
+msgstr ""
+"Mejora significativa del funcionamiento de los recordatorios recurrentes"
 
 #: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:100
-msgid "Fix issue when removing selected reminders"
-msgstr "Solucionar el problema al eliminar los recordatorios seleccionados"
+msgid "Fix date/time text wrapping awkwardly"
+msgstr "Arregla el ajuste de texto de fecha y hora que resulta extraño"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:107
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:101
+msgid "Improvements to handling of network errors"
+msgstr "Mejoras en el manejo de errores de red"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:102
+msgid "Fix some other minor issues"
+msgstr "Solucionar algunos otros problemas menores"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:103
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:207
+msgid "Bump API version"
+msgstr "Aumentar la versión de la API"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:110
+msgid "Fix versioning by bumping to 4.0"
+msgstr "Corregir el versionado pasando a 4.0"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:117
+msgid "Remove warning about cloud syncing being in beta"
+msgstr ""
+"Eliminar la advertencia de que la sincronización con la nube está en fase "
+"beta"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:118
+msgid "Fix issue where you could make reminder recurring when it shouldn't be"
+msgstr ""
+"Soluciona el problema por el que se podía hacer recurrente un recordatorio "
+"cuando no debería serlo"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:125
+msgid "Change delete icon"
+msgstr "Cambiar el icono de eliminación"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:126
+msgid "Fix some ui bugs"
+msgstr "Corrige algunos errores de interfaz de usuario"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:127
+msgid "Some tiny performance improvements"
+msgstr "Algunas pequeñas mejoras de rendimiento"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:128
+msgid "Improve logging"
+msgstr "Mejora el registro"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:135
+msgid "UI Improvements to sidebar"
+msgstr "Mejoras en la interfaz de usuario de la barra lateral"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:136
+msgid "Fix issues when moving reminders between lists"
+msgstr "Soluciona problemas al mover recordatorios entre listas"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:137
+msgid "Fix issue with error dialogs"
+msgstr "Soluciona el problema con los cuadros de diálogo de error"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:144
+msgid "Fix issue when deleting lists"
+msgstr "Soluciona el problema al eliminar listas"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:151
+msgid "Fix issue when removing selected reminders"
+msgstr "Soluciona el problema al eliminar los recordatorios seleccionados"
+
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:158
 msgid "Performance improvements"
 msgstr "Mejoras de rendimiento"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:108
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:159
 msgid "Don't freeze UI when updating MS reminders"
-msgstr "No congele la interfaz de usuario al actualizar los recordatorios de MS"
+msgstr ""
+"No congela la interfaz de usuario al actualizar los recordatorios de MS"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:109
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:160
 msgid "Automatically refresh reminders after waking from suspend"
 msgstr ""
-"Actualizar automáticamente los recordatorios después de salir de la "
-"suspensión"
+"Actualiza automáticamente los recordatorios después de salir de la suspensión"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:110
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:161
 msgid "Fix issues with deleting lists"
-msgstr "Solucionar problemas con la eliminación de listas"
+msgstr "Soluciona problemas con la eliminación de listas"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:111
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:162
 msgid "Fix issues when queueing remote changes while internet is disconnected"
 msgstr ""
-"Solucionar problemas al poner en cola cambios remotos mientras Internet está "
+"Soluciona problemas al poner en cola cambios remotos mientras Internet está "
 "desconectado"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:118
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:169
 msgid "Stop showing completed reminders on upcoming page"
-msgstr "Dejar de mostrar recordatorios completados en la próxima página"
+msgstr "Deja de mostrar recordatorios completados en la próxima página"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:119
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:170
 msgid "Cross out completed reminders on all reminders page"
 msgstr ""
-"Tachar los recordatorios completados en la página de todos los recordatorios"
+"Tacha los recordatorios completados en la página de todos los recordatorios"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:126
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:177
 msgid "Add support for setting due dates without sending notifications"
 msgstr ""
-"Añadir soporte para establecer fechas de vencimiento sin enviar "
-"notificaciones"
+"Añade soporte para establecer fechas de vencimiento sin enviar notificaciones"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:127
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:178
 msgid ""
 "Add support for selecting and editing multiple reminders (Start selecting "
 "with Ctrl + LMB or by pressing and holding a reminder)"
 msgstr ""
-"Añadir soporte para seleccionar y editar múltiples recordatorios (comience a "
+"Añade soporte para seleccionar y editar múltiples recordatorios (comience a "
 "seleccionar con Ctrl + LMB o manteniendo presionado un recordatorio)"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:128
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:179
 msgid "Slightly improve error handling"
-msgstr "Mejorar ligeramente el manejo de errores"
+msgstr "Mejora ligeramente el manejo de errores"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:135
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:186
 msgid "Fix issue when setting reminders in another year"
-msgstr "Solucione el problema al configurar recordatorios para otro año"
+msgstr "Soluciona el problema al configurar recordatorios para otro año"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:142
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:193
 msgid "Fix issue when saving Microsoft To Do Reminders"
-msgstr "Solucionar el problema al guardar los recordatorios de Microsoft To Do"
+msgstr "Soluciona el problema al guardar los recordatorios de Microsoft To Do"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:149
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:200
 msgid "New notification sound"
 msgstr "Nuevo sonido de notificación"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:150
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:201
 msgid "Allow sorting reminders by created time and last updated time"
 msgstr ""
-"Permitir ordenar recordatorios por hora de creación y hora de última "
+"Permite ordenar recordatorios por hora de creación y hora de última "
 "actualización"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:151
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:202
 msgid "Allow marking reminders as important"
-msgstr "Permitir marcar recordatorios como importantes"
+msgstr "Permite marcar recordatorios como importantes"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:152
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:203
 msgid "Slightly improved UI"
 msgstr "Interfaz de usuario ligeramente mejorada"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:153
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:204
 msgid "Added keyboard shortcuts page"
 msgstr "Página de atajos de teclado añadida"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:154
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:205
 msgid "Added more keyboard shortcuts"
 msgstr "Se agregaron más atajos de teclado"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:155
+#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:206
 msgid "Lots of bugfixes"
 msgstr "Un montón de correcciones de errores"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:156
-msgid "Bump API version"
-msgstr "Versión de la API de prueba"
+#: src/browser/resources/ui/caldav_sign_in.ui:23
+msgid "CalDAV Sync"
+msgstr "Sincronización CalDAV"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:163
-msgid "Fix a few minor bugs"
-msgstr "Solución de algunos errores menores"
+#: src/browser/resources/ui/caldav_sign_in.ui:47
+#: src/browser/resources/ui/preferences_user_row.ui:23
+msgid "Display Name"
+msgstr "Nombre a mostrar"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:164
-msgid "Update dutch translation"
-msgstr "Actualización de la traducción al holandés"
+#: src/browser/resources/ui/caldav_sign_in.ui:53
+msgid "Server URL"
+msgstr "URL del servidor"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:171
-msgid "Added support for creating and editing task lists"
-msgstr "Se agregó soporte para crear y editar listas de tareas"
+#: src/browser/resources/ui/caldav_sign_in.ui:59
+msgid "Username"
+msgstr "Nombre de usuario"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:172
-msgid "Added support for syncing with Microsoft To Do"
-msgstr "Se agregó soporte para sincronizar con Microsoft To Do"
+#: src/browser/resources/ui/caldav_sign_in.ui:65
+msgid "Password"
+msgstr "Contraseña"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:173
-msgid "Reduced memory usage"
-msgstr "Uso de memoria reducido"
+#: src/browser/resources/ui/caldav_sign_in.ui:72
+msgid "Sign In"
+msgstr "Iniciar sesión"
 
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:174
-msgid "Redesigned some UI elements"
-msgstr "Rediseño de algunos elementos de la interfaz de usuario"
-
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:175
-msgid "Better support for mobile devices"
-msgstr "Mejor soporte para dispositivos móviles"
-
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:176
-msgid "Better error dialogs"
-msgstr "Mejores diálogos de error"
-
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:177
-msgid "Fix some issues with the backend"
-msgstr "Solucionados algunos problemas con el backend"
-
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:184
-msgid "Some small UI improvements."
-msgstr "Algunas pequeñas mejoras en la interfaz de usuario."
-
-#: data/io.github.dgsasha.Remembrance.metainfo.xml.in.in:191
-msgid "Fix issue where app can corrupt or lose its data."
-msgstr ""
-"Solucionado el problema donde la aplicación puede dañar o perder sus datos."
-
-#: src/browser/resources/ui/edit_lists_window.ui:4
+#: src/browser/resources/ui/edit_lists_window.ui:20
+#: src/browser/resources/ui/main_window.ui:285
 msgid "Edit Lists"
 msgstr "Editar listas"
 
-#: src/browser/resources/ui/main_window.ui:34
-msgid "Show sidebar"
-msgstr "Mostrar barra lateral"
+#: src/browser/resources/ui/error_dialog.ui:48
+msgid "View Error"
+msgstr "Ver error"
 
-#: src/browser/resources/ui/main_window.ui:45
-msgid "Sort direction"
-msgstr "Ordenar la dirección"
+#: src/browser/resources/ui/export_lists_window.ui:20
+msgid "Export Lists"
+msgstr "Exportar listas"
 
-#: src/browser/resources/ui/main_window.ui:59
-#: src/browser/resources/ui/shortcuts_window.ui:73
-msgid "Search"
-msgstr "Buscar"
-
-#: src/browser/resources/ui/main_window.ui:67
-msgid "App menu"
-msgstr "Menú de la aplicación"
-
-#: src/browser/resources/ui/main_window.ui:107
-#: src/browser/resources/ui/main_window.ui:251 src/browser/main_window.py:699
-msgid "All Reminders"
-msgstr "Todos los recordatorios"
-
-#: src/browser/resources/ui/main_window.ui:130 src/browser/main_window.py:709
-msgid "Upcoming Reminders"
-msgstr "Próximos Recordatorios"
-
-#: src/browser/resources/ui/main_window.ui:153 src/browser/main_window.py:719
-msgid "Past Reminders"
-msgstr "Recordatorios Pasados"
-
-#: src/browser/resources/ui/main_window.ui:176 src/browser/main_window.py:729
-msgid "Completed Reminders"
-msgstr "Recordatorios Completados"
-
-#: src/browser/resources/ui/main_window.ui:194
-msgid "Select task list"
-msgstr "Seleccionar lista de tareas"
-
-#: src/browser/resources/ui/main_window.ui:337
-#: src/browser/resources/ui/move_reminders_window.ui:62
-#: src/browser/resources/ui/reminder_edit_window.ui:465
-#: src/browser/edit_lists_window.py:79 src/browser/edit_lists_window.py:189
-#: src/browser/main_window.py:233 src/browser/main_window.py:905
-#: src/browser/main_window.py:919 src/browser/main_window.py:937
-#: src/browser/main_window.py:951 src/browser/main_window.py:966
-#: src/browser/move_reminders_window.py:110 src/browser/preferences.py:225
-#: src/browser/reminder.py:344
+#: src/browser/resources/ui/export_lists_window.ui:78
+#: src/browser/resources/ui/import_lists_window.ui:92
+#: src/browser/resources/ui/main_window.ui:426
+#: src/browser/resources/ui/move_reminders_window.ui:78
+#: src/browser/resources/ui/reminder_edit_window.ui:490
+#: src/browser/edit_lists_window.py:96 src/browser/edit_lists_window.py:201
+#: src/browser/main_window.py:391 src/browser/main_window.py:1285
+#: src/browser/main_window.py:1300 src/browser/main_window.py:1319
+#: src/browser/main_window.py:1334 src/browser/main_window.py:1349
+#: src/browser/move_reminders_window.py:111 src/browser/preferences.py:274
+#: src/browser/reminder.py:412
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/browser/resources/ui/main_window.ui:359 src/browser/reminder.py:288
-msgid "Complete"
-msgstr "Completo"
+#: src/browser/resources/ui/export_lists_window.ui:93
+#: src/browser/resources/ui/shortcuts_window.ui:37
+msgid "Export"
+msgstr "Exportar"
 
-#: src/browser/resources/ui/main_window.ui:385 src/browser/reminder.py:284
+#: src/browser/resources/ui/import_lists_window.ui:20
+msgid "Import Lists"
+msgstr "Importar listas"
+
+#: src/browser/resources/ui/import_lists_window.ui:56
+msgid "Import to specific list"
+msgstr "Importar a una lista específica"
+
+#: src/browser/resources/ui/import_lists_window.ui:57
+msgid "Otherwise new lists will be created"
+msgstr "De lo contrario, se crearán nuevas listas"
+
+#: src/browser/resources/ui/import_lists_window.ui:63
+msgid "Select a list"
+msgstr "Seleccione una lista"
+
+#: src/browser/resources/ui/import_lists_window.ui:107
+#: src/browser/resources/ui/shortcuts_window.ui:43
+msgid "Import"
+msgstr "Importar"
+
+#: src/browser/resources/ui/main_window.ui:50
+msgid "Show sidebar"
+msgstr "Mostrar barra lateral"
+
+#: src/browser/resources/ui/main_window.ui:61
+msgid "Sort direction"
+msgstr "Dirección de orden"
+
+#: src/browser/resources/ui/main_window.ui:75
+#: src/browser/resources/ui/shortcuts_window.ui:101
+msgid "Search"
+msgstr "Buscar"
+
+#: src/browser/resources/ui/main_window.ui:83
+msgid "App menu"
+msgstr "Menú de la aplicación"
+
+#: src/browser/resources/ui/main_window.ui:126
+#: src/browser/resources/ui/main_window.ui:340 src/browser/main_window.py:1048
+msgid "All Reminders"
+msgstr "Todos los recordatorios"
+
+#: src/browser/resources/ui/main_window.ui:158 src/browser/main_window.py:1059
+msgid "Upcoming Reminders"
+msgstr "Próximos Recordatorios"
+
+#: src/browser/resources/ui/main_window.ui:190 src/browser/main_window.py:1070
+msgid "Past Reminders"
+msgstr "Recordatorios Pasados"
+
+#: src/browser/resources/ui/main_window.ui:222 src/browser/main_window.py:1081
+msgid "Completed Reminders"
+msgstr "Recordatorios Completados"
+
+#: src/browser/resources/ui/main_window.ui:448 src/browser/reminder.py:346
+msgid "Complete"
+msgstr "Completado"
+
+#: src/browser/resources/ui/main_window.ui:474 src/browser/reminder.py:342
 msgid "Incomplete"
 msgstr "Incompleto"
 
-#: src/browser/resources/ui/main_window.ui:411
-#: src/browser/resources/ui/reminder_edit_window.ui:50
+#: src/browser/resources/ui/main_window.ui:500
+#: src/browser/resources/ui/reminder_edit_window.ui:66
 msgid "Important"
 msgstr "Importante"
 
-#: src/browser/resources/ui/main_window.ui:437
+#: src/browser/resources/ui/main_window.ui:526
 msgid "Unimportant"
 msgstr "Sin importancia"
 
-#: src/browser/resources/ui/main_window.ui:462
-#: src/browser/resources/ui/move_reminders_window.ui:77
+#: src/browser/resources/ui/main_window.ui:551
+#: src/browser/resources/ui/move_reminders_window.ui:93
 msgid "Move"
 msgstr "Mover"
 
-#: src/browser/resources/ui/main_window.ui:484
-#: src/browser/resources/ui/reminder.ui:78 src/browser/edit_lists_window.py:190
-#: src/browser/reminder.py:345
+#: src/browser/resources/ui/main_window.ui:573
+#: src/browser/resources/ui/reminder.ui:100
+#: src/browser/edit_lists_window.py:202 src/browser/reminder.py:413
 msgid "Remove"
-msgstr "Quitar"
+msgstr "Eliminar"
 
-#: src/browser/resources/ui/main_window.ui:506
-#: src/browser/resources/ui/main_window.ui:514
+#: src/browser/resources/ui/main_window.ui:595
+#: src/browser/resources/ui/main_window.ui:603
 msgid "Add a reminder"
 msgstr "Añadir un recordatorio"
 
-#: src/browser/resources/ui/main_window.ui:536
+#: src/browser/resources/ui/main_window.ui:625
 msgid "_Refresh"
-msgstr "_Refrescar"
+msgstr "_Actualizar"
 
-#: src/browser/resources/ui/main_window.ui:540
-msgid "_Edit Lists"
-msgstr "_Editar Listas"
+#: src/browser/resources/ui/main_window.ui:629
+msgid "_Export Lists"
+msgstr "_Exportar listas"
 
-#: src/browser/resources/ui/main_window.ui:546
+#: src/browser/resources/ui/main_window.ui:633
+msgid "_Import Lists"
+msgstr "_Importar listas"
+
+#: src/browser/resources/ui/main_window.ui:639
 msgid "_Preferences"
 msgstr "_Preferencias"
 
-#: src/browser/resources/ui/main_window.ui:550
+#: src/browser/resources/ui/main_window.ui:643
 msgid "_Keyboard Shortcuts"
 msgstr "_Atajos de Teclado"
 
-#: src/browser/resources/ui/main_window.ui:554
+#: src/browser/resources/ui/main_window.ui:647
 msgid "_About Reminders"
 msgstr "_Acerca de Recordatorios"
 
-#: src/browser/resources/ui/main_window.ui:561
+#: src/browser/resources/ui/main_window.ui:654
 msgid "Sort By"
-msgstr "Ordernar Por"
+msgstr "Ordernar por"
 
-#: src/browser/resources/ui/main_window.ui:563
+#: src/browser/resources/ui/main_window.ui:656
 msgid "_Time"
-msgstr "_Hora"
+msgstr "_Tiempo"
 
-#: src/browser/resources/ui/main_window.ui:568
+#: src/browser/resources/ui/main_window.ui:661
 msgid "_Alphabetical"
 msgstr "_Alfabético"
 
-#: src/browser/resources/ui/main_window.ui:573
+#: src/browser/resources/ui/main_window.ui:666
 msgid "_Created"
 msgstr "_Creado"
 
-#: src/browser/resources/ui/main_window.ui:578
+#: src/browser/resources/ui/main_window.ui:671
 msgid "_Last Updated"
-msgstr "_Recientemente Actualizado"
+msgstr "_Recientemente actualizado"
 
-#: src/browser/resources/ui/move_reminders_window.ui:4
+#: src/browser/resources/ui/microsoft_sign_in.ui:23
+msgid "Microsoft To Do Sync"
+msgstr "Sincronización de Microsoft To Do"
+
+#: src/browser/resources/ui/move_reminders_window.ui:20
 msgid "Move Selected Reminder(s)"
 msgstr "Mover Recordatorio(s) Seleccionado(s)"
 
-#: src/browser/resources/ui/ms_user_row.ui:19
-msgid "All"
-msgstr "Todos"
-
-#: src/browser/resources/ui/ms_user_row.ui:42 src/browser/preferences.py:226
-msgid "Sign Out"
-msgstr "Desconectar"
-
-#: src/browser/resources/ui/preferences.ui:4
-#: src/browser/resources/ui/shortcuts_window.ui:21
+#: src/browser/resources/ui/preferences.ui:20
+#: src/browser/resources/ui/shortcuts_window.ui:49
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: src/browser/resources/ui/preferences.ui:13
-msgid "Syncing (Beta)"
-msgstr "Sincronización (Beta)"
+#: src/browser/resources/ui/preferences.ui:29
+msgid "Syncing"
+msgstr "Sincronización"
 
-#: src/browser/resources/ui/preferences.ui:22
+#: src/browser/resources/ui/preferences.ui:38
 msgid "Microsoft To Do"
 msgstr "Microsoft To Do"
 
-#: src/browser/resources/ui/preferences.ui:34
+#: src/browser/resources/ui/preferences.ui:50
+#: src/browser/resources/ui/preferences.ui:78
 msgid "Add Account"
 msgstr "Añadir Cuenta"
 
-#: src/browser/resources/ui/preferences.ui:54
-msgid "Refresh"
-msgstr "Refrescar"
-
 #: src/browser/resources/ui/preferences.ui:66
-#: src/browser/resources/ui/reminder_edit_window.ui:36
+msgid "CalDAV"
+msgstr "CalDAV"
+
+#: src/browser/resources/ui/preferences.ui:98
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: src/browser/resources/ui/preferences.ui:110
+#: src/browser/resources/ui/reminder_edit_window.ui:52
 msgid "General"
 msgstr "General"
 
-#: src/browser/resources/ui/preferences.ui:75
+#: src/browser/resources/ui/preferences.ui:119
+msgid "Week starts on Sunday"
+msgstr "La semana comienza el domingo"
+
+#: src/browser/resources/ui/preferences.ui:130
 msgid "Play sound with notification"
 msgstr "Reproducir sonido con notificación"
 
-#: src/browser/resources/ui/preferences.ui:79
+#: src/browser/resources/ui/preferences.ui:134
 msgid "Use the included notification sound"
 msgstr "Usar el sonido de notificación incluido"
 
-#: src/browser/resources/ui/preferences.ui:80
+#: src/browser/resources/ui/preferences.ui:135
 msgid "Otherwise the bell sound from the enabled sound theme will be used"
 msgstr ""
 "De lo contrario, se usará el sonido de campana del tema de sonido habilitado"
 
-#: src/browser/resources/ui/preferences.ui:98
+#: src/browser/resources/ui/preferences.ui:153
 msgid "Use locale default"
-msgstr "Usar configuración regional predeterminada"
+msgstr "Usar una configuración local predeterminada"
 
-#: src/browser/resources/ui/preferences.ui:99
+#: src/browser/resources/ui/preferences.ui:154
 msgid "12 hour time"
 msgstr "Horario de 12 horas"
 
-#: src/browser/resources/ui/preferences.ui:100
+#: src/browser/resources/ui/preferences.ui:155
 msgid "24 hour time"
 msgstr "Horario de 24 horas"
 
-#: src/browser/resources/ui/preferences.ui:105
+#: src/browser/resources/ui/preferences.ui:160
 msgid "5 mins"
 msgstr "5 min"
 
-#: src/browser/resources/ui/preferences.ui:106
+#: src/browser/resources/ui/preferences.ui:161
 msgid "15 mins"
 msgstr "15 min"
 
-#: src/browser/resources/ui/preferences.ui:107
+#: src/browser/resources/ui/preferences.ui:162
 msgid "30 mins"
 msgstr "30 min"
 
-#: src/browser/resources/ui/preferences.ui:108
+#: src/browser/resources/ui/preferences.ui:163
 msgid "60 mins"
 msgstr "60 min"
 
-#: src/browser/resources/ui/reminder.ui:109
+#: src/browser/resources/ui/preferences_user_row.ui:52
+msgid "All"
+msgstr "Todos"
+
+#: src/browser/resources/ui/preferences_user_row.ui:75
+#: src/browser/preferences.py:275
+msgid "Sign Out"
+msgstr "Desconectar"
+
+#: src/browser/resources/ui/reminder.ui:131
 msgid "Edit"
 msgstr "Editar"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:39
+#: src/browser/resources/ui/reminder_edit_window.ui:55
 msgid "What should the reminder be called?"
 msgstr "¿Cómo debe llamarse el recordatorio?"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:45
+#: src/browser/resources/ui/reminder_edit_window.ui:61
 msgid "Short description of the reminder (Optional)"
 msgstr "Breve descripción del recordatorio (Opcional)"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:51
+#: src/browser/resources/ui/reminder_edit_window.ui:67
 msgid "This will make the reminder display first in the list"
 msgstr "Esto hará que el recordatorio se muestre primero en la lista"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:63
+#: src/browser/resources/ui/reminder_edit_window.ui:79
 msgid "Location"
 msgstr "Ubicación"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:74
+#: src/browser/resources/ui/reminder_edit_window.ui:90
 msgid "Set a date/time"
 msgstr "Establecer una fecha/hora"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:96
-#: src/browser/resources/ui/reminder_edit_window.ui:422
+#: src/browser/resources/ui/reminder_edit_window.ui:112
+#: src/browser/resources/ui/reminder_edit_window.ui:447
 msgid "Select date"
-msgstr ""
+msgstr "Seleccione la fecha"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:131
+#: src/browser/resources/ui/reminder_edit_window.ui:147
 msgid "Hour"
-msgstr ""
+msgstr "Hora"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:162
+#: src/browser/resources/ui/reminder_edit_window.ui:178
 msgid "Minute"
-msgstr ""
+msgstr "Minuto"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:208
+#: src/browser/resources/ui/reminder_edit_window.ui:224
 msgid "Send a notification"
-msgstr ""
+msgstr "Enviar una notificación"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:227
+#: src/browser/resources/ui/reminder_edit_window.ui:243
 msgid "Repeat the reminder"
-msgstr ""
+msgstr "Repetir el recordatorio"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:242
+#: src/browser/resources/ui/reminder_edit_window.ui:244
+msgid "The reminder will be updated when you complete it"
+msgstr "El recordatorio se actualizará cuando lo complete"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:259
 msgid "Repeat every"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:285
-msgid "Mon"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:286
-msgid "Monday"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:297
-msgid "Tue"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:298
-msgid "Tuesday"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:309
-msgid "Wed"
-msgstr ""
+msgstr "Repetir cada"
 
 #: src/browser/resources/ui/reminder_edit_window.ui:310
-msgid "Wednesday"
-msgstr ""
+msgid "Mon"
+msgstr "Lun"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:321
-msgid "Thu"
-msgstr ""
+#: src/browser/resources/ui/reminder_edit_window.ui:311
+msgid "Monday"
+msgstr "Lunes"
 
 #: src/browser/resources/ui/reminder_edit_window.ui:322
-msgid "Thursday"
-msgstr ""
+msgid "Tue"
+msgstr "Mar"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:333
-msgid "Fri"
-msgstr ""
+#: src/browser/resources/ui/reminder_edit_window.ui:323
+msgid "Tuesday"
+msgstr "Martes"
 
 #: src/browser/resources/ui/reminder_edit_window.ui:334
-msgid "Friday"
-msgstr ""
+msgid "Wed"
+msgstr "Mie"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:345
-msgid "Sat"
-msgstr ""
+#: src/browser/resources/ui/reminder_edit_window.ui:335
+msgid "Wednesday"
+msgstr "Miércoles"
 
 #: src/browser/resources/ui/reminder_edit_window.ui:346
-msgid "Saturday"
-msgstr ""
+msgid "Thu"
+msgstr "Jue"
 
-#: src/browser/resources/ui/reminder_edit_window.ui:357
-msgid "Sun"
-msgstr ""
+#: src/browser/resources/ui/reminder_edit_window.ui:347
+msgid "Thursday"
+msgstr "Jueves"
 
 #: src/browser/resources/ui/reminder_edit_window.ui:358
+msgid "Fri"
+msgstr "Vie"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:359
+msgid "Friday"
+msgstr "Viernes"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:370
+msgid "Sat"
+msgstr "Sab"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:371
+msgid "Saturday"
+msgstr "Sábado"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:382
+msgid "Sun"
+msgstr "Dom"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:383
 msgid "Sunday"
-msgstr ""
+msgstr "Domingo"
 
 #. Translators: This is a noun, preceded by a number to represent the number of occurrences of something
-#: src/browser/resources/ui/reminder_edit_window.ui:407
+#: src/browser/resources/ui/reminder_edit_window.ui:432
 msgid "time(s)"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:480
-msgid "Save"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:495
-msgid "minute(s)"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:496
-msgid "hour(s)"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:497
-msgid "day(s)"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:498
-msgid "week(s)"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:503
-msgid "Repeat forever"
-msgstr ""
-
-#: src/browser/resources/ui/reminder_edit_window.ui:504
-msgid "Display a total of"
-msgstr ""
+msgstr "tiempo(s)"
 
 #: src/browser/resources/ui/reminder_edit_window.ui:505
+msgid "Save"
+msgstr "Guardar"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:520
+msgid "minute(s)"
+msgstr "minuto(s)"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:521
+msgid "hour(s)"
+msgstr "hora(s)"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:522
+#: src/browser/resources/ui/reminder_edit_window.ui:530
+msgid "day(s)"
+msgstr "día(s)"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:523
+#: src/browser/resources/ui/reminder_edit_window.ui:531
+msgid "week(s)"
+msgstr "semana(s)"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:524
+#: src/browser/resources/ui/reminder_edit_window.ui:532
+msgid "months(s)"
+msgstr "mes(es)"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:525
+#: src/browser/resources/ui/reminder_edit_window.ui:533
+msgid "years(s)"
+msgstr "año(s)"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:538
+msgid "Repeat forever"
+msgstr "Repetir para siempre"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:539
+msgid "Display a total of"
+msgstr "Mostrar un total de"
+
+#: src/browser/resources/ui/reminder_edit_window.ui:540
 msgid "Repeat until"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:11
-msgid "Application"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:15
-msgid "Show menu"
-msgstr ""
+msgstr "Repetir hasta"
 
 #: src/browser/resources/ui/shortcuts_window.ui:27
+msgid "Application"
+msgstr "Aplicación"
+
+#: src/browser/resources/ui/shortcuts_window.ui:31
+msgid "Show menu"
+msgstr "Mostrar menú"
+
+#: src/browser/resources/ui/shortcuts_window.ui:55
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Atajos de teclado"
 
-#: src/browser/resources/ui/shortcuts_window.ui:33
+#: src/browser/resources/ui/shortcuts_window.ui:61
 msgid "Quit"
-msgstr ""
+msgstr "Salir"
 
-#: src/browser/resources/ui/shortcuts_window.ui:40
+#: src/browser/resources/ui/shortcuts_window.ui:68
 msgid "Navigation"
-msgstr ""
+msgstr "Navegación"
 
-#: src/browser/resources/ui/shortcuts_window.ui:44
+#: src/browser/resources/ui/shortcuts_window.ui:72
 msgid "Move left"
-msgstr ""
+msgstr "Mover a la izquierda"
 
-#: src/browser/resources/ui/shortcuts_window.ui:50
+#: src/browser/resources/ui/shortcuts_window.ui:78
 msgid "Move up"
-msgstr ""
+msgstr "Subir"
 
-#: src/browser/resources/ui/shortcuts_window.ui:56
+#: src/browser/resources/ui/shortcuts_window.ui:84
 msgid "Move right"
-msgstr ""
+msgstr "Mover a la derecha"
 
-#: src/browser/resources/ui/shortcuts_window.ui:62
+#: src/browser/resources/ui/shortcuts_window.ui:90
 msgid "Move down"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:69
-msgid "Main Window"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:79
-msgid "New reminder"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:85
-msgid "Refresh reminders"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:91
-msgid "Select all reminders"
-msgstr ""
+msgstr "Bajar"
 
 #: src/browser/resources/ui/shortcuts_window.ui:97
-msgid "Unselect all reminders"
-msgstr ""
+msgid "Main Window"
+msgstr "Ventana principal"
 
-#: src/browser/resources/ui/shortcuts_window.ui:103
-msgid "Hold to select multiple reminders"
-msgstr ""
+#: src/browser/resources/ui/shortcuts_window.ui:107
+msgid "New reminder"
+msgstr "Nuevo recordatorio"
 
-#: src/browser/resources/ui/shortcuts_window.ui:110
-msgid "Edit Windows"
-msgstr ""
+#: src/browser/resources/ui/shortcuts_window.ui:113
+msgid "Refresh reminders"
+msgstr "Actualizar recordatorios"
 
-#: src/browser/resources/ui/shortcuts_window.ui:114
-msgid "Save changes"
-msgstr ""
-
-#: src/browser/resources/ui/shortcuts_window.ui:121
-msgid "Child Windows"
-msgstr ""
+#: src/browser/resources/ui/shortcuts_window.ui:119
+msgid "Select all reminders"
+msgstr "Seleccionar todos los recordatorios"
 
 #: src/browser/resources/ui/shortcuts_window.ui:125
-msgid "Close window"
-msgstr ""
+msgid "Hold to start selecting reminders"
+msgstr "Mantén pulsado para empezar a seleccionar recordatorios"
 
-#: src/browser/about.py:36
+#: src/browser/resources/ui/shortcuts_window.ui:131
+msgid "Unselect all reminders"
+msgstr "Deseleccionar todos los recordatorios"
+
+#: src/browser/resources/ui/shortcuts_window.ui:137
+msgid "Remove selected reminders"
+msgstr "Eliminar los recordatorios seleccionados"
+
+#: src/browser/resources/ui/shortcuts_window.ui:144
+msgid "Child Windows"
+msgstr "Ventanas secundarias"
+
+#: src/browser/resources/ui/shortcuts_window.ui:148
+msgid "Close window"
+msgstr "Cerrar la ventana"
+
+#: src/browser/resources/ui/shortcuts_window.ui:154
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: src/browser/about.py:51
 msgid "Copyright 2023 Sasha Hale"
-msgstr ""
+msgstr "Derechos de autor 2023 Sasha Hale"
 
 #. Translators: Do not translate this, instead put your name and email here.
 #. name <email>
-#: src/browser/about.py:44
+#: src/browser/about.py:59
 msgid "translator-credits"
-msgstr ""
+msgstr "haggen88"
 
-#: src/browser/application.py:51
+#: src/browser/application.py:56
 msgid "Print the version of the app"
-msgstr ""
+msgstr "Versión de la aplicación"
 
-#: src/browser/application.py:58
+#: src/browser/application.py:63
 msgid "Restart service before starting app"
-msgstr ""
+msgstr "Reiniciar el servicio antes de iniciar la aplicación"
 
-#: src/browser/application.py:65
+#: src/browser/application.py:70
 msgid "Start on a different page"
-msgstr ""
+msgstr "Empezar en otra página"
 
-#: src/browser/application.py:168 src/browser/application.py:304
+#: src/browser/application.py:195 src/browser/application.py:375
 msgid "Something went wrong"
-msgstr ""
+msgstr "Algo salió mal"
 
-#: src/browser/application.py:168 src/browser/application.py:304
+#: src/browser/application.py:195 src/browser/application.py:375
 msgid "Changes were not saved. This bug should be reported."
-msgstr ""
+msgstr "Los cambios no se guardaron. Debe informarse de este error."
 
-#: src/browser/application.py:299
+#: src/browser/application.py:367
 msgid "Reminders failed to start"
-msgstr ""
+msgstr "Recordatorios a fallado en iniciar"
 
-#: src/browser/application.py:299
+#: src/browser/application.py:367
 msgid ""
 "If this is your first time running Reminders, you will probably have to log "
 "out and log back in before using it. This is due to a bug in Flatpak."
 msgstr ""
+"Si es la primera vez que ejecutas Recordatorios, probablemente tendrás que "
+"cerrar la sesión y volver a iniciarla antes de utilizarlo. Esto se debe a un "
+"error en Flatpak."
 
-#: src/browser/edit_lists_window.py:23 src/browser/edit_lists_window.py:103
+#: src/browser/edit_lists_window.py:22 src/browser/edit_lists_window.py:118
 msgid "New List"
-msgstr ""
+msgstr "Nueva lista"
 
-#: src/browser/edit_lists_window.py:76 src/browser/main_window.py:230
+#: src/browser/edit_lists_window.py:93 src/browser/main_window.py:388
 msgid "You have unsaved changes"
-msgstr ""
+msgstr "Tienes cambios sin guardar"
 
-#: src/browser/edit_lists_window.py:77 src/browser/main_window.py:231
+#: src/browser/edit_lists_window.py:94 src/browser/main_window.py:389
 msgid "Are you sure you want to close the window?"
-msgstr ""
+msgstr "¿Seguro que quieres cerrar la ventana?"
 
-#: src/browser/edit_lists_window.py:80 src/browser/main_window.py:234
-#: src/browser/main_window.py:906 src/browser/main_window.py:920
-#: src/browser/main_window.py:938 src/browser/main_window.py:952
-#: src/browser/main_window.py:967 src/browser/move_reminders_window.py:111
+#: src/browser/edit_lists_window.py:97 src/browser/main_window.py:392
+#: src/browser/main_window.py:1286 src/browser/main_window.py:1301
+#: src/browser/main_window.py:1320 src/browser/main_window.py:1335
+#: src/browser/main_window.py:1350 src/browser/move_reminders_window.py:112
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
-#: src/browser/edit_lists_window.py:97 src/browser/main_window.py:434
-#: src/browser/move_reminders_window.py:46
-msgid "Local"
-msgstr ""
-
-#: src/browser/edit_lists_window.py:138
+#: src/browser/edit_lists_window.py:153
 msgid "What should the list be called?"
-msgstr ""
+msgstr "¿Cómo debería llamarse la lista?"
 
-#: src/browser/edit_lists_window.py:185
+#: src/browser/edit_lists_window.py:197
 msgid "Remove list?"
-msgstr ""
+msgstr "¿Eliminar lista?"
 
-#: src/browser/edit_lists_window.py:186
+#: src/browser/edit_lists_window.py:198
 #, python-brace-format
 msgid "This will remove {list_name} and cannot be undone."
-msgstr ""
+msgstr "Esto eliminará {list_name} y no se puede deshacer."
 
-#: src/browser/main_window.py:38
-msgid "All Lists"
-msgstr ""
-
-#: src/browser/main_window.py:75
+#: src/browser/main_window.py:99
 msgid "Nothing to see here!"
-msgstr ""
+msgstr "¡No hay nada que ver aquí!"
 
-#: src/browser/main_window.py:76
+#: src/browser/main_window.py:100
 msgid "Press the plus button below to add a reminder"
-msgstr ""
+msgstr "Pulse el botón más abajo para añadir un recordatorio"
 
-#: src/browser/main_window.py:79
+#: src/browser/main_window.py:104
 msgid "No reminders match your search"
-msgstr ""
+msgstr "No hay recordatorios que coincidan con tu búsqueda"
 
-#: src/browser/main_window.py:249
+#: src/browser/main_window.py:407
 msgid "Does not repeat"
-msgstr ""
+msgstr "No se repite"
 
-#: src/browser/main_window.py:252
+#: src/browser/main_window.py:410
 msgid "minute"
-msgstr ""
+msgstr "minuto"
 
-#: src/browser/main_window.py:254
+#: src/browser/main_window.py:412
 msgid "minutes"
-msgstr ""
+msgstr "minutos"
 
-#: src/browser/main_window.py:257
+#: src/browser/main_window.py:415
 msgid "hour"
-msgstr ""
+msgstr "hora"
 
-#: src/browser/main_window.py:259
+#: src/browser/main_window.py:417
 msgid "hours"
-msgstr ""
+msgstr "horas"
 
-#: src/browser/main_window.py:262
+#: src/browser/main_window.py:420
 msgid "day"
-msgstr ""
+msgstr "día"
 
-#: src/browser/main_window.py:264
+#: src/browser/main_window.py:422
 msgid "days"
-msgstr ""
+msgstr "días"
 
 #. Translators: This is an abbreviation for Monday
-#: src/browser/main_window.py:269
+#: src/browser/main_window.py:427
 msgid "M"
-msgstr ""
+msgstr "Lun"
 
 #. Translators: This is an abbreviation for Tuesday
-#: src/browser/main_window.py:271
+#: src/browser/main_window.py:429
 msgid "Tu"
-msgstr ""
+msgstr "Mar"
 
 #. Translators: This is an abbreviation for Wednesday
-#: src/browser/main_window.py:273
+#: src/browser/main_window.py:431
 msgid "W"
-msgstr ""
+msgstr "Mie"
 
 #. Translators: This is an abbreviation for Thursday
-#: src/browser/main_window.py:275
+#: src/browser/main_window.py:433
 msgid "Th"
-msgstr ""
+msgstr "Jue"
 
 #. Translators: This is an abbreviation for Friday
-#: src/browser/main_window.py:277
+#: src/browser/main_window.py:435
 msgid "F"
-msgstr ""
+msgstr "Vie"
 
 #. Translators: This is an abbreviation for Saturday
-#: src/browser/main_window.py:279
+#: src/browser/main_window.py:437
 msgid "Sa"
-msgstr ""
+msgstr "Sab"
 
 #. Translators: This is an abbreviation for Sunday
-#: src/browser/main_window.py:281
+#: src/browser/main_window.py:439
 msgid "Su"
-msgstr ""
+msgstr "Dom"
 
-#: src/browser/main_window.py:287
+#: src/browser/main_window.py:445
 msgid "week"
-msgstr ""
+msgstr "semana"
 
-#: src/browser/main_window.py:289
+#: src/browser/main_window.py:447
 msgid "weeks"
-msgstr ""
+msgstr "semanas"
 
-#: src/browser/main_window.py:295
+#: src/browser/main_window.py:453
+msgid "month"
+msgstr "mes"
+
+#: src/browser/main_window.py:455
+msgid "months"
+msgstr "meses"
+
+#: src/browser/main_window.py:458
+msgid "year"
+msgstr "año"
+
+#: src/browser/main_window.py:460
+msgid "years"
+msgstr "años"
+
+#: src/browser/main_window.py:463
 msgid "until"
-msgstr ""
+msgstr "hasta"
 
 #. Translators: This is a noun, preceded by a number to represent the number of occurrences of something
-#: src/browser/main_window.py:298
+#: src/browser/main_window.py:466
 msgid "time"
-msgstr ""
+msgstr "vez"
 
 #. Translators: This is a noun, preceded by a number to represent the number of occurrences of something
-#: src/browser/main_window.py:301
+#: src/browser/main_window.py:469
 msgid "times"
-msgstr ""
+msgstr "veces"
 
 #. Translators: This is a adjective, followed by a number to represent how often something occurs
-#: src/browser/main_window.py:306
+#: src/browser/main_window.py:474
 msgid "Every"
-msgstr ""
+msgstr "Cada"
 
-#: src/browser/main_window.py:342
+#: src/browser/main_window.py:510
 msgid "Today"
 msgstr "Hoy"
 
-#: src/browser/main_window.py:344
+#: src/browser/main_window.py:512
 msgid "Tomorrow"
 msgstr "Mañana"
 
-#: src/browser/main_window.py:346
+#: src/browser/main_window.py:514
 msgid "Yesterday"
-msgstr ""
+msgstr "Ayer"
 
-#: src/browser/main_window.py:878
+#: src/browser/main_window.py:736
+msgid "All Lists"
+msgstr "Todas las listas"
+
+#: src/browser/main_window.py:1257
 #, python-brace-format
 msgid "Searching '{text}'"
-msgstr ""
+msgstr "Buscando '{text}'"
 
-#: src/browser/main_window.py:885
+#: src/browser/main_window.py:1264
 msgid "Start typing to search"
-msgstr ""
+msgstr "Empieza a escribir para buscar"
 
-#: src/browser/main_window.py:903
+#: src/browser/main_window.py:1282
+msgid "Mark reminders as complete?"
+msgstr "¿Marcar recordatorios como completados?"
+
+#: src/browser/main_window.py:1283
 msgid ""
 "Are you sure you want to mark the currently selected reminder(s) as complete?"
 msgstr ""
+"¿Está seguro de que desea marcar los recordatorios actualmente seleccionados "
+"como completados?"
 
-#: src/browser/main_window.py:917
+#: src/browser/main_window.py:1297
+msgid "Mark reminders as incomplete?"
+msgstr "¿Marcar recordatorios como incompletos?"
+
+#: src/browser/main_window.py:1298
 msgid ""
 "Are you sure you want to mark the currently selected reminder(s) as "
 "incomplete?"
 msgstr ""
+"¿Está seguro de que desea marcar los recordatorios seleccionados como "
+"incompletos?"
 
-#: src/browser/main_window.py:935
+#: src/browser/main_window.py:1316
+msgid "Mark reminders as important?"
+msgstr "¿Marcar recordatorios como importantes?"
+
+#: src/browser/main_window.py:1317
 msgid ""
 "Are you sure you want to mark the currently selected reminder(s) as "
 "important?"
 msgstr ""
+"¿Está seguro de que desea marcar como importantes los recordatorios "
+"seleccionados actualmente?"
 
-#: src/browser/main_window.py:949
+#: src/browser/main_window.py:1331
+msgid "Mark reminders as unimportant?"
+msgstr "¿Marcar los recordatorios como no importantes?"
+
+#: src/browser/main_window.py:1332
 msgid ""
 "Are you sure you want to mark the currently selected reminder(s) as "
 "unimportant?"
 msgstr ""
+"¿Está seguro de que desea marcar los recordatorios seleccionados como no "
+"importantes?"
 
-#: src/browser/main_window.py:963
-msgid "Are you sure you want to remove the currently selected reminder(s)?"
+#: src/browser/main_window.py:1346
+msgid "Remove reminders?"
+msgstr "¿Eliminar recordatorios?"
+
+#: src/browser/main_window.py:1347
+msgid ""
+"Are you sure you want to remove the currently selected reminder(s)? This "
+"cannot be undone."
 msgstr ""
+"¿Está seguro de que desea eliminar los recordatorios seleccionados? Esto no "
+"se puede deshacer."
 
-#: src/browser/main_window.py:964
-msgid "This cannot be undone."
-msgstr ""
-
-#: src/browser/move_reminders_window.py:108
+#: src/browser/move_reminders_window.py:109
 msgid "Are you sure you want to move the currently selected reminder(s)?"
 msgstr ""
+"¿Está seguro de que desea mover los recordatorios seleccionados actualmente?"
 
-#: src/browser/preferences.py:221
+#: src/browser/preferences.py:270
 msgid "Are you sure you want to sign out?"
-msgstr ""
+msgstr "¿Seguro que quieres cerrar la sesión?"
 
-#: src/browser/preferences.py:222
+#: src/browser/preferences.py:271
 #, python-brace-format
-msgid "This will sign out <b>{self.email}</b>"
-msgstr ""
+msgid "This will sign out <b>{self.username}</b>"
+msgstr "Esto cerrará la sesión de <b>{self.username}</b>"
 
-#: src/browser/reminder.py:340
+#: src/browser/reminder.py:408
 msgid "Remove reminder?"
-msgstr ""
+msgstr "¿Eliminar recordatorio?"
 
-#: src/browser/reminder.py:341
+#: src/browser/reminder.py:409
 #, python-brace-format
 msgid "This will remove {reminder} and cannot be undone."
-msgstr ""
+msgstr "Esto eliminará {reminder} y no se puede deshacer."
 
-#: src/browser/reminder_edit_window.py:124
+#: src/browser/reminder_edit_window.py:123
 msgid "Edit Reminder"
 msgstr "Editar Recordatorio"
 
-#: src/browser/reminder_edit_window.py:126
+#: src/browser/reminder_edit_window.py:125
 msgid "New Reminder"
-msgstr ""
+msgstr "Nuevo recordatorio"
 
-#: src/browser/reminder_edit_window.py:272
-#: src/browser/reminder_edit_window.py:292
+#: src/browser/reminder_edit_window.py:278
+#: src/browser/reminder_edit_window.py:298
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
-#: src/browser/reminder_edit_window.py:276
-#: src/browser/reminder_edit_window.py:296
+#: src/browser/reminder_edit_window.py:282
+#: src/browser/reminder_edit_window.py:302
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
-#: src/browser/reminder_edit_window.py:404
-msgid "Not saving"
-msgstr ""
-
-#: src/browser/reminder_edit_window.py:405
-msgid ""
-"This reminder will never be shown, change the repeat options so it is shown "
-"at least once."
-msgstr ""
-
-#: src/browser/reminder_edit_window.py:407
-msgid "Okay"
-msgstr ""
-
-#: src/browser/reminder_edit_window.py:519
-msgid "Microsoft reminders currently don't support recurrence"
-msgstr ""
-
-#: src/service/backend.py:721
+#: src/service/backend.py:634
 msgid "Mark as completed"
-msgstr ""
+msgstr "Marcar como completado"
 
-#: src/service/backend.py:1003
+#: src/service/backend.py:1015
 msgid "Local Reminders"
-msgstr ""
+msgstr "Recordatorios locales"
+
+#: src/service/backend.py:1676
+msgid "Local"
+msgstr "Locales"
+
+#~ msgid "Completed last"
+#~ msgstr "Completado el último"
+
+#~ msgid "Completed reverse"
+#~ msgstr "Completado inverso"
+
+#~ msgid "Reverse order of completed reminders when sorted by time"
+#~ msgstr ""
+#~ "Orden inverso de los recordatorios completados cuando se ordenan por fecha"
+
+#~ msgid "Sync with Microsoft To Do"
+#~ msgstr "Sincronizar con Microsoft To Do"
+
+#~ msgid "Update dutch translation"
+#~ msgstr "Actualización de la traducción al holandés"
+
+#~ msgid "Reduced memory usage"
+#~ msgstr "Uso de memoria reducido"
+
+#~ msgid "Redesigned some UI elements"
+#~ msgstr "Rediseño de algunos elementos de la interfaz de usuario"
+
+#~ msgid "Better support for mobile devices"
+#~ msgstr "Mejor soporte para dispositivos móviles"
+
+#~ msgid "Better error dialogs"
+#~ msgstr "Mejores diálogos de error"
+
+#~ msgid "Fix some issues with the backend"
+#~ msgstr "Solucionados algunos problemas con el backend"
+
+#~ msgid "Fix issue where app can corrupt or lose its data."
+#~ msgstr ""
+#~ "Solucionado el problema donde la aplicación puede dañar o perder sus "
+#~ "datos."
